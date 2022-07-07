@@ -1,0 +1,59 @@
+/* Custom Styles */
+
+*{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+	background-image: url("https://www.f1-fansite.com/wp-content/uploads/2022/02/All-2022-F1-cars.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+}
+
+h2{
+	margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+img{
+	margin-bottom: 20px;
+}
+
+/* Sticky footer styles */
+
+html, body {
+	height: 100%;
+}
+
+.wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+
+}
+.footer {
+	height: 60px;
+	padding-top: 20px;
+	background-color:#7B241c;
+    border-color: green;
+}
+.container-fluid {
+	height: 60px;
+	padding-top: 20px;
+	background-color:#7b241c;
+    border-color:green;
+}
+
+div.panel{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+/* reduce container with*/
+@media (min-width: 1200px){
+	.container {
+    	width: 1000px;
+	}
+}
